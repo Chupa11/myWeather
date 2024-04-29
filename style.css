@@ -1,0 +1,70 @@
+*{
+    padding: 5px;
+    margin: 10px;
+    font-family: monospace;
+    border: none;
+    color: white;
+}
+.container{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(135deg, lightblue, darkblue);
+
+    border-radius: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+.searchElements input, button, button img{
+    height: 30px;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+button{
+    width: 30px;
+    margin: 0;
+    padding: 0;
+}
+button img{
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    
+}
+.searchElements input{
+    width: 200px;
+}
+.weatherElements{
+    padding: 5px;
+
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.weatherElements table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.hide{
+    visibility: hidden;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(226, 226, 226);
+}
+input{
+    color: black;
+}
+.buttons{
+    text-align: center;
+}
+.celcius{
+    background-color: lightblue
+}
+.farenheit{
+    background-color: rgb(255, 63, 63);
+}

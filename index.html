@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="searchElements">
+            <input id="input" type="text" placeholder="city here">
+            <button id="button" onclick="getWeather()"><img src="images/search.png" alt="search button"></button>
+        </div>
+        <img src="images/clouds.png" id="weatherImg">
+        <h1 id="tempOutput">43 F</h1>
+        <h2 id="cityName">Greeley</h2>
+        <div class="weatherElements">
+            <table>
+                <tr>
+                    <td>Wind</td>
+                    <td class="hide">____</td>
+                    <td>Humidity</td>
+                </tr>
+                <tr>
+                    <td><img src="images/wind.png" alt=""></td>
+                    <td class="hide">____</td>
+                    <td><img src="images/humidity.png"></td>
+                </tr>
+                <tr>
+                    <td id="windSpeedOutput">14 mph</td>
+                    <td class="hide">____</td>
+                    <td id="humidityOutput">35%</td>
+                </tr>
+            </table>
+        </div>
+        <div class="buttons">
+            <button id="switchButton" onclick="switchTemp()" style="background-color: lightblue;">°C</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -18,6 +18,7 @@ async function getWeather(){
         cityName.innerHTML=data.name;
         temp.innerHTML=Math.floor(data.main.temp)+"° F";
         tempToChange=data.main.temp
+        i=0;
         windSpeed.innerHTML=Math.floor(data.wind.speed)+" MPH"
         humidity.innerHTML=data.main.humidity+"%"
         console.log(link);
